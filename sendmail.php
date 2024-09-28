@@ -65,6 +65,6 @@ if (isset($_POST['submitContact'])) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
 } else {
-    header('Location: index.php');
+    header('Location: contact.php');
     exit(0);
 }
